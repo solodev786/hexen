@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import newbg from "../../assets/sectionTwo.png";
+
 
 const SectionTwo = () => {
   return (

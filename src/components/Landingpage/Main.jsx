@@ -1,5 +1,4 @@
 import React from "react";
-import newbg from "../../assets/newbg.png";
 import logo from "../../assets/HEXEN WEBSITE ASSETS/Hexen_logo.png";
 import intro from "../../assets/HEXEN WEBSITE ASSETS/homepage_quote.png";
 import { PiMouseSimpleThin } from "react-icons/pi";

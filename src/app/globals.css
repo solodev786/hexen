@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Add this CSS rule to your stylesheet */
+.card:hover .hidden-on-hover {
+  display: none;
+}
+.card {
+  display: flex;
+}
+.card:hover .show-on-hover {
+  display: flex;
+}
+.hiddenItem {
+  display: none;
+}
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
