@@ -181,7 +181,7 @@ function SectionOne() {
               </h1>
               <h1 className=" text-xl md:w-4/5  font-extralight">
                 Our team is a unique blend of youthful energy and seasoned
-                expertise. We're not just a startup; we're a powerhouse of
+                expertise. We&apos;re not just a startup; we&apos;re a powerhouse of
                 talent, with fresh perspectives from young minds and invaluable
                 wisdom from experienced professionals. This dynamic combination
                 results in unparalleled products that set new standards in the

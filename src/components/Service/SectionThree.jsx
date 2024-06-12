@@ -105,9 +105,9 @@ function SectionThree() {
               >
                 <p className="mt-5 md:w-3/4">
                   Our backend development services create secure and efficient
-                  systems that power your website's functionality. We focus on
-                  building scalable backend solutions that support your site’s
-                  performance and reliability.
+                  systems that power your website&apos;s functionality. We focus
+                  on building scalable backend solutions that support your
+                  site&apos;s performance and reliability.
                 </p>
               </div>
             </div>

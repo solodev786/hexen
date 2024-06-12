@@ -59,10 +59,10 @@ function SectionOne() {
         <h1 className=" text-4xl md:text-6xl font-semibold">Service</h1>
         <h1 className=" md:w-2/3">
           At Hexen, we offer a comprehensive suite of web development services
-          designed to bring your digital vision to life. Whether you're looking
-          to build a stunning website from scratch, revamp your existing site,
-          or implement cutting-edge web technologies, our expert team is here to
-          help.
+          designed to bring your digital vision to life. Whether you&apos;re
+          looking to build a stunning website from scratch, revamp your existing
+          site, or implement cutting-edge web technologies, our expert team is
+          here to help.
         </h1>
         <div className=" w-full h-96 relative hidden md:block">
           <Image src={folder} alt="folder" />
@@ -89,7 +89,7 @@ function SectionOne() {
                   </div>
                 </div>
                 <div className=" px-8 py-2 bg-white rounded-full text-black">
-                  <h1>Let's Discuss</h1>
+                  <h1>Let&apos;s Discuss</h1>
                 </div>
               </div>
             </div>

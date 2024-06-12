@@ -42,8 +42,8 @@ const SectionThree = () => {
                 vision, collaborates closely with you, and delivers stunning
                 products that bring a smile to your face. We believe in turning
                 concepts into reality, ensuring each project is a joyful journey
-                from start to finish. For us, there's no greater reward than the
-                satisfaction and happiness of our clients.
+                from start to finish. For us, there&apos;s no greater reward
+                than the satisfaction and happiness of our clients.
               </h1>
 
               <div className=" hidden md:flex md:items-start md:gap-5 ">

@@ -55,7 +55,7 @@ function SectionFive() {
           <div className=" flex flex-wrap justify-center md:justify-start  items-center gap-4 md:gap-20">
             {techArray.map((items, index) => {
               return (
-                <div
+                <div key={index}
                   onClick={(e) => setClickedMenu(items.name)}
                   className=" flex flex-col gap-10"
                 >

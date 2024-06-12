@@ -20,9 +20,9 @@ function SectionFive() {
               Clients
             </h1>
             <div className=" my-5 md:my-0 md:mt-10 text-gray-400 ">
-              Our clients' satisfaction is the cornerstone of our success at
-              Hexen. We take immense pride in the glowing feedback we've
-              received from those we've had the pleasure to work with.
+              Our client&apos;s satisfaction is the cornerstone of our success
+              at Hexen. We take immense pride in the glowing feedback we&apos;ve
+              received from those we&apos;ve had the pleasure to work with.
             </div>
           </div>
           <div className=" flex flex-col gap-5">
@@ -30,10 +30,10 @@ function SectionFive() {
               <div className=" my-5 md:my-0 w-full md:w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
                 <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    "Hexen transformed our vision into a stunning website that
-                    exceeded our expectations. Their attention to detail and
-                    commitment to quality is unmatched. We couldn't be happier
-                    with the results!"
+                    &quot;Hexen transformed our vision into a stunning website
+                    that exceeded our expectations. Their attention to detail
+                    and commitment to quality is unmatched. We couldn&apos;t be
+                    happier with the results!&quot;
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
@@ -47,10 +47,10 @@ function SectionFive() {
               <div className=" w-full md:w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
                 <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    "Working with Hexen was a delightful experience. They truly
-                    listened to our needs and delivered a product that brought
-                    our ideas to life. Their expertise and dedication made all
-                    the difference."
+                    &quot;Working with Hexen was a delightful experience. They
+                    truly listened to our needs and delivered a product that
+                    brought our ideas to life. Their expertise and dedication
+                    made all the difference.&quot;
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
@@ -65,10 +65,10 @@ function SectionFive() {
               <div className="w-full md:w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
                 <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    "The team at Hexen went above and beyond to ensure our
+                    &quot;The team at Hexen went above and beyond to ensure our
                     website was perfect. Their innovative approach and high
                     standards set them apart.the website is a part of my
-                    business
+                    business&quot;
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
@@ -82,10 +82,10 @@ function SectionFive() {
               <div className="hidden md:block w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
                 <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    "From start to finish, Hexen provided exceptional service
-                    and delivered a website that our customers love. Their
-                    ability to understand our requirements and create a
-                    user-friendly site was impressive."
+                    &quot;From start to finish, Hexen provided exceptional
+                    service and delivered a website that our customers love.
+                    Their ability to understand our requirements and create a
+                    user-friendly site was impressive.&quot;
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
@@ -100,10 +100,10 @@ function SectionFive() {
               <div className=" hidden md:block w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
                 <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    "We are thrilled with the website Hexen developed for us.
-                    Their team's creativity and technical expertise resulted in
-                    a site that is both functional and visually appealing. They
-                    exceeded our expectations!"
+                    &quot;We are thrilled with the website Hexen developed for
+                    us. Their team&apos;s creativity and technical expertise
+                    resulted in a site that is both functional and visually
+                    appealing. They exceeded our expectations!&quot;
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
@@ -117,10 +117,10 @@ function SectionFive() {
               <div className=" hidden md:block w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
                 <div className=" flex flex-col gap-5 h-full justify-between">
                   <h1 className=" text-sm">
-                    "Hexen's work is nothing short of extraordinary. They
-                    created a versatile, beautiful website that truly represents
-                    our brand. Their dedication and professionalism were evident
-                    every step of the way."
+                    &quot;Hexen&apos;s work is nothing short of extraordinary.
+                    They created a versatile, beautiful website that truly
+                    represents our brand. Their dedication and professionalism
+                    were evident every step of the way.&quot;
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>

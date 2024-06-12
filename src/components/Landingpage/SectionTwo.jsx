@@ -29,7 +29,7 @@ const SectionTwo = () => {
             Welcome to Hexen, where we transform the web development landscape.
             With a proven track record of successful projects for numerous
             companies, we help businesses grow and thrive online. Unlike others,
-            we don't just claim that "the customer is king" — we live it. Our
+            we don&apos;t just claim that &quot;the customer is king&quot; — we live it. Our
             actions speak louder than words, as our experienced experts
             consistently deliver exceptional results that leave our clients
             satisfied and our connections strong. At Hexen, your success is our

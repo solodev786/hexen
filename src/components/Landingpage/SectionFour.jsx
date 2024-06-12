@@ -21,12 +21,12 @@ function SectionFour() {
             <div className=" w-3/4 h-auto flex items-start gap-5">
               <h1 className=" text-xl text-gray-400  ">
                 At Hexen, we pride ourselves on delivering world-class quality
-                and standards in every project. We don’t just assemble websites;
+                and standards in every project. We don&apos;t just assemble websites;
                 we meticulously discover, refine, and tailor each element to
                 meet its unique needs. This dedicated approach ensures that
                 every website we create is versatile, innovative, and perfectly
-                suited to our clients’ goals. Our commitment to excellence is
-                evident in the diverse range of websites we've crafted, each one
+                suited to our client&apos;s goals. Our commitment to excellence is
+                evident in the diverse range of websites we&apos;ve crafted, each one
                 a testament to our expertise and attention to detail.
               </h1>
             </div>
@@ -36,12 +36,12 @@ function SectionFour() {
             <h1 className=" text-gray-300">
               {" "}
               At Hexen, we pride ourselves on delivering world-class quality and
-              standards in every project. We don’t just assemble websites; we
+              standards in every project. We don&apos;t just assemble websites; we
               meticulously discover, refine, and tailor each element to meet its
               unique needs. This dedicated approach ensures that every website
               we create is versatile, innovative, and perfectly suited to our
-              clients’ goals. Our commitment to excellence is evident in the
-              diverse range of websites we've crafted, each one a testament to
+              client&apos;s goals. Our commitment to excellence is evident in the
+              diverse range of websites we&apos;ve crafted, each one a testament to
               our expertise and attention to detail.
             </h1>
             {/* pending a div */}
