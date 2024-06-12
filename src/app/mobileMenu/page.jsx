@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import { TiMinusOutline } from "react-icons/ti";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import { FaMinus } from "react-icons/fa6";
@@ -13,7 +12,7 @@ function MobileMenu() {
           <div className="w-full flex flex-col gap-10">
             <div
               onClick={() => {
-                router.back(); 
+                router.back();
               }}
               className=" w-full flex justify-end"
             >
