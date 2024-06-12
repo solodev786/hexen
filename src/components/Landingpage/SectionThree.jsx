@@ -6,6 +6,12 @@ import divtwo from "../../assets/HEXEN WEBSITE ASSETS/divtwo.png";
 import divthree from "../../assets/HEXEN WEBSITE ASSETS/divthree.png";
 import divfour from "../../assets/HEXEN WEBSITE ASSETS/divfour.png";
 import divfive from "../../assets/HEXEN WEBSITE ASSETS/divfive.png";
+
+import mobileDivOne from "../../assets/ourworks.svg";
+import mobileDivTwo from "../../assets/clientsays.svg";
+import mobileDivThree from "../../assets/divethreemobile.svg";
+import mobileDivFour from "../../assets/fourdiv.svg";
+import { Avatar, AvatarGroup } from "@mui/material";
 const SectionThree = () => {
   return (
     <div className=" px-10 md:px-0 w-full md:h-screen flex justify-center py-5 md:py-10">
@@ -14,7 +20,7 @@ const SectionThree = () => {
           <div className=" flex items-center gap-4">
             <h1 className=" text-sm text-violet-500">01</h1>
             <div className=" w-[1px] h-[10px] bg-violet-500"></div>
-            <h1 className=" uppercase font-extralight">Who we are</h1>
+            <h1 className=" uppercase font-extralight">what we do</h1>
             <div className=" block md:hidden w-1/3 h-[1px] bg-white"></div>
           </div>
           <div className="  md:flex md:items-start md:gap-5">
@@ -32,22 +38,14 @@ const SectionThree = () => {
                 ever though possible
               </h1>
               <h1 className=" md:w-[800px] text-xl font-light text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Architecto ex fugiat inventore delectus eligendi molestiae? Est
-                nostrum accusantium illo, quis cupiditate veritatis nulla beatae
-                repellendus nam libero neque reprehenderit eligendi!
+                At Hexen, we bring your ideas to life. Our team takes your
+                vision, collaborates closely with you, and delivers stunning
+                products that bring a smile to your face. We believe in turning
+                concepts into reality, ensuring each project is a joyful journey
+                from start to finish. For us, there's no greater reward than the
+                satisfaction and happiness of our clients.
               </h1>
 
-              {/* <div className=" flex gap-2 items-end bg-white">
-                <div
-                  className="w-[500px] h-96 bg-blue-500 rounded-3xl"
-                  style={{
-                    clipPath:
-                      "polygon(50% 0%, 100% 0, 100% 41%, 65% 42%, 65% 72%, 0 72%, 0 0)",
-                  }}
-                ></div>
-                <div className=" w-80 h-32 bg-blue-500 ml-[-170px] mt-[-170px]"></div>
-              </div> */}
               <div className=" hidden md:flex md:items-start md:gap-5 ">
                 <Image
                   src={divone}
@@ -90,27 +88,30 @@ const SectionThree = () => {
                 </div>
               </div>
               <div className="block md:hidden w-full flex flex-col gap-2">
-                <div className=" h-44 w-full bg-white rounded-2xl border-4 border-yellow-500">
-                  <Image src={divone} className=" w-full h-full object-cover" />
+                <div className=" h-48 w-full  rounded-2xl">
+                  <Image
+                    src={mobileDivOne}
+                    className=" w-full rounded-2xl h-full object-cover"
+                  />
                 </div>
                 <div className=" flex gap-2 items-center w-full">
-                  <div className=" w-2/3 h-32 bg-white rounded-2xl">
+                  <div className=" w-2/3 h-32  rounded-2xl ">
                     <Image
-                      src={divtwo}
-                      className=" w-full h-full object-cover"
+                      src={mobileDivTwo}
+                      className=" w-full h-full rounded-xl object-cover"
                     />
                   </div>
                   <div className=" w-1/3 h-32 bg-white rounded-2xl">
                     <Image
-                      src={divthree}
-                      className=" w-full h-full object-cover"
+                      src={mobileDivThree}
+                      className=" w-full h-full rounded-2xl object-cover"
                     />
                   </div>
                 </div>
                 <div className=" w-full h-16 rounded-2xl bg-white ">
                   <Image
-                    src={divfour}
-                    className=" w-full h-full object-cover"
+                    src={mobileDivFour}
+                    className=" w-full rounded-2xl h-full object-cover"
                   />
                 </div>
               </div>

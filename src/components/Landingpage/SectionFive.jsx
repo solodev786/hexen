@@ -11,7 +11,7 @@ function SectionFive() {
           <h1 className=" uppercase font-light">testimonials</h1>
           <div className=" w-4/5 h-[1px] bg-gradient-to-r from-white to-blue-400"></div>
         </div>
-        <div className=" md:flex items-center justify-between">
+        <div className=" md:flex gap-10 items-center justify-between">
           <div className=" flex flex-col  text-white">
             <h1 className=" text-4xl font-semibold md:text-6xl md:font-bold">
               Read from our
@@ -19,28 +19,23 @@ function SectionFive() {
             <h1 className=" text-violet-500 text-4xl font-semibold md:font-bold md:text-6xl">
               Clients
             </h1>
-            <div className=" my-5 md:my-0 md:mt-10 text-gray-400">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Perspiciatis quod nostrum, nemo iusto fugit sed id iste ex eos
-              aperiam, harum commodi
+            <div className=" my-5 md:my-0 md:mt-10 text-gray-400 ">
+              Our clients' satisfaction is the cornerstone of our success at
+              Hexen. We take immense pride in the glowing feedback we've
+              received from those we've had the pleasure to work with.
             </div>
           </div>
           <div className=" flex flex-col gap-5">
             <div className=" md:flex gap-5 items-center">
-              <div className=" my-5 md:my-0 w-full md:w-80 h-44 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
-                <div className=" flex flex-col gap-5">
+              <div className=" my-5 md:my-0 w-full md:w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
+                <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet obcaecati commodi
+                    "Hexen transformed our vision into a stunning website that
+                    exceeded our expectations. Their attention to detail and
+                    commitment to quality is unmatched. We couldn't be happier
+                    with the results!"
                   </h1>
                   <div className=" flex items-center gap-4">
-                    <div className=" w-10 h-10 rounded-full bg-white">
-                      <Image
-                        src={men}
-                        alt="men"
-                        className=" w-full h-full object-cover rounded-full"
-                      />
-                    </div>
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
                       <h1 className=" text-xs">CEO of easy tuition</h1>
@@ -49,20 +44,15 @@ function SectionFive() {
                 </div>
               </div>
               {/* <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div> */}
-              <div className=" w-full md:w-80 h-44 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
-                <div className=" flex flex-col gap-5">
+              <div className=" w-full md:w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
+                <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet obcaecati commodi
+                    "Working with Hexen was a delightful experience. They truly
+                    listened to our needs and delivered a product that brought
+                    our ideas to life. Their expertise and dedication made all
+                    the difference."
                   </h1>
                   <div className=" flex items-center gap-4">
-                    <div className=" w-10 h-10 rounded-full bg-white">
-                      <Image
-                        src={men}
-                        alt="men"
-                        className=" w-full h-full object-cover rounded-full"
-                      />
-                    </div>
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
                       <h1 className=" text-xs">CEO of easy tuition</h1>
@@ -72,20 +62,15 @@ function SectionFive() {
               </div>
             </div>
             <div className=" md:flex gap-5 items-center">
-              <div className="w-full md:w-80 h-44 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
-                <div className=" flex flex-col gap-5">
+              <div className="w-full md:w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
+                <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet obcaecati commodi
+                    "The team at Hexen went above and beyond to ensure our
+                    website was perfect. Their innovative approach and high
+                    standards set them apart.the website is a part of my
+                    business
                   </h1>
                   <div className=" flex items-center gap-4">
-                    <div className=" w-10 h-10 rounded-full bg-white">
-                      <Image
-                        src={men}
-                        alt="men"
-                        className=" w-full h-full object-cover rounded-full"
-                      />
-                    </div>
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
                       <h1 className=" text-xs">CEO of easy tuition</h1>
@@ -94,20 +79,15 @@ function SectionFive() {
                 </div>
               </div>
               {/* <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div> */}
-              <div className="hidden md:block w-80 h-44 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
-                <div className=" flex flex-col gap-5">
+              <div className="hidden md:block w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
+                <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet obcaecati commodi
+                    "From start to finish, Hexen provided exceptional service
+                    and delivered a website that our customers love. Their
+                    ability to understand our requirements and create a
+                    user-friendly site was impressive."
                   </h1>
                   <div className=" flex items-center gap-4">
-                    <div className=" w-10 h-10 rounded-full bg-white">
-                      <Image
-                        src={men}
-                        alt="men"
-                        className=" w-full h-full object-cover rounded-full"
-                      />
-                    </div>
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
                       <h1 className=" text-xs">CEO of easy tuition</h1>
@@ -117,20 +97,15 @@ function SectionFive() {
               </div>
             </div>
             <div className=" md:flex gap-5 items-center">
-              <div className=" hidden md:block w-80 h-44 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
-                <div className=" flex flex-col gap-5">
+              <div className=" hidden md:block w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
+                <div className=" flex flex-col h-full justify-between gap-5">
                   <h1 className=" text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet obcaecati commodi
+                    "We are thrilled with the website Hexen developed for us.
+                    Their team's creativity and technical expertise resulted in
+                    a site that is both functional and visually appealing. They
+                    exceeded our expectations!"
                   </h1>
                   <div className=" flex items-center gap-4">
-                    <div className=" w-10 h-10 rounded-full bg-white">
-                      <Image
-                        src={men}
-                        alt="men"
-                        className=" w-full h-full object-cover rounded-full"
-                      />
-                    </div>
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
                       <h1 className=" text-xs">CEO of easy tuition</h1>
@@ -139,20 +114,15 @@ function SectionFive() {
                 </div>
               </div>
               {/* <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div> */}
-              <div className=" hidden md:block w-80 h-44 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
-                <div className=" flex flex-col gap-5">
+              <div className=" hidden md:block w-80 h-56 bg-black rounded-2xl px-5 py-5 backdrop-blur-lg bg-opacity-30 border border-blue-900">
+                <div className=" flex flex-col gap-5 h-full justify-between">
                   <h1 className=" text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Eveniet obcaecati commodi
+                    "Hexen's work is nothing short of extraordinary. They
+                    created a versatile, beautiful website that truly represents
+                    our brand. Their dedication and professionalism were evident
+                    every step of the way."
                   </h1>
                   <div className=" flex items-center gap-4">
-                    <div className=" w-10 h-10 rounded-full bg-white">
-                      <Image
-                        src={men}
-                        alt="men"
-                        className=" w-full h-full object-cover rounded-full"
-                      />
-                    </div>
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
                       <h1 className=" text-xs">CEO of easy tuition</h1>
@@ -161,14 +131,6 @@ function SectionFive() {
                 </div>
               </div>
             </div>
-            {/* <div className=" flex gap-5 items-center">
-              <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div>
-              <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div>
-            </div>
-            <div className=" flex gap-5 items-center">
-              <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div>
-              <div className=" w-80 h-44 bg-slate-700 rounded-2xl px-5 py-5"></div>
-            </div> */}
           </div>
         </div>
         <div className="hidden md:block w-full h-[1px] bg-gradient-to-r from-white to-gray-500"></div>

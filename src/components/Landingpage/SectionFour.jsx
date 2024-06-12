@@ -10,32 +10,24 @@ function SectionFour() {
   return (
     <div className=" w-full flex justify-center py-10 px-10 md:px-0">
       <div className=" w-[1200px] ">
-        <div className=" flex flex-col gap-5 md:gap-16 ">
+        <div className=" flex flex-col gap-5 md:gap-10 ">
           <div className=" flex items-center gap-4 justify-end">
             <h1 className=" font-light text-violet-500">02</h1>
             <div className=" w-[1px] h-[10px] bg-violet-500"></div>
-            <h1 className="  uppercase font-light md:w-32 ">our works</h1>
+            <h1 className="  uppercase font-light md:w-32 w-32">our works</h1>
             <div className=" w-2/4 md:w-full h-[1px] bg-gradient-to-r from-gray-600 to-gray-200 "></div>
           </div>
           <div className="hidden md:block w-full flex justify-end gap-10">
             <div className=" w-3/4 h-auto flex items-start gap-5">
-              <h1
-                className="text-3xl font-semibold"
-                style={{
-                  writingMode: "vertical-rl",
-                  textOrientation: "mixed",
-                  direction: "rtl",
-                }}
-              >
-                Features
-              </h1>
-
-              <div className=" h-32 w-[2px] bg-gradient-to-b from-white to-gray-600 ml-[-20px]"></div>
-              <h1 className=" text-2xl font-bold ">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-                voluptates architecto aut repellendus nihil eos ducimus deserunt
-                ea excepturi beatae voluptate ab facilis, praesentium
-                accusantium vel nulla exercitationem inventore? Nihil.
+              <h1 className=" text-xl text-gray-400  ">
+                At Hexen, we pride ourselves on delivering world-class quality
+                and standards in every project. We don’t just assemble websites;
+                we meticulously discover, refine, and tailor each element to
+                meet its unique needs. This dedicated approach ensures that
+                every website we create is versatile, innovative, and perfectly
+                suited to our clients’ goals. Our commitment to excellence is
+                evident in the diverse range of websites we've crafted, each one
+                a testament to our expertise and attention to detail.
               </h1>
             </div>
           </div>
@@ -43,14 +35,18 @@ function SectionFour() {
             <h1 className=" text-3xl font-semibold">Features</h1>
             <h1 className=" text-gray-300">
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis,
-              voluptates architecto aut repellendus nihil eos ducimus deserunt
-              ea excepturi beatae voluptate ab facilis, praesentium accusantium
-              vel nulla exercitationem inventore? Nihil.
+              At Hexen, we pride ourselves on delivering world-class quality and
+              standards in every project. We don’t just assemble websites; we
+              meticulously discover, refine, and tailor each element to meet its
+              unique needs. This dedicated approach ensures that every website
+              we create is versatile, innovative, and perfectly suited to our
+              clients’ goals. Our commitment to excellence is evident in the
+              diverse range of websites we've crafted, each one a testament to
+              our expertise and attention to detail.
             </h1>
             {/* pending a div */}
           </div>
-          <div className=" hidden md:block  mt-20 relative">
+          <div className=" hidden md:block  mt-10 relative">
             <Image src={folder} alt="folder" className=" relative" />
             <div className=" absolute top-0 left-0 w-full flex h-full items-center px-10">
               <div className=" flex flex-col gap-5 w-full">
@@ -63,12 +59,12 @@ function SectionFour() {
                       works
                     </h1>
                   </div>
-                  <h1 className=" w-2/5 font-medium text-lg">
+                  {/* <h1 className=" w-2/5 font-medium text-lg">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Commodi, laborum veritatis atque perspiciatis quis animi
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Commodi,
-                  </h1>
+                  </h1> */}
                 </div>
 
                 <div className=" w-full h-96 bg-black rounded-3xl flex items-center">

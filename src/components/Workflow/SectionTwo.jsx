@@ -27,8 +27,8 @@ function SectionTwo() {
   };
   const handleProcessSlider = () => {};
   return (
-    <div className=" w-full flex justify-center mt-32">
-      <div className=" flex flex-col gap-20">
+    <div className=" w-full flex justify-center md:mt-32 px-5 md:pl-20">
+      <div className=" flex flex-col gap-10 md:gap-20">
         <div
           className=" flex gap-10 items-center overflow-scroll scroll-smooth no-scrollbar"
           id="process"
@@ -38,20 +38,31 @@ function SectionTwo() {
               className="  card relative hover:scale-x-[-1] cursor-pointer w-full flex flex-shrink-0"
               style={{ transitionDuration: "0.5s" }}
             >
-              <Image src={rect} alt="img" width={400} className="relative" />
+              <Image
+                src={rect}
+                alt="img"
+                width={400}
+                className="hidden md:block relative"
+              />
+              <Image
+                src={rect}
+                alt="img"
+                width={300}
+                className="relative block md:hidden"
+              />
               <div className="absolute top-0 left-0 w-full py-10 px-10 h-full flex flex-col items-start justify-between">
                 <div className=" hidden-on-hover w-full h-full flex justify-center items-center">
-                  <TfiReload className=" text-9xl" />
+                  <TfiReload className="text-5xl md:text-9xl" />
                 </div>
                 <div className=" flex items-end justify-between w-full">
                   <h1 className="hidden-on-hover w-2/3 text-2xl font-semibold">
                     Friendly and collaborative team
                   </h1>
                   <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5 ">
-                    <h1 className=" text-2xl font-medium">
+                    <h1 className=" md:text-2xl font-medium">
                       Friendly and Collaborative Team
                     </h1>
-                    <h1>
+                    <h1 className=" text-sm">
                       At HEXEN, we pride ourselves on being approachable and
                       collaborative. Our team is always ready to exchange tips
                       and insights to enhance your project. We believe in
@@ -70,20 +81,31 @@ function SectionTwo() {
               className="  card relative hover:scale-x-[-1] cursor-pointer w-full flex flex-shrink-0"
               style={{ transitionDuration: "0.5s" }}
             >
-              <Image src={rect} alt="img" width={400} className="relative" />
+              <Image
+                src={rect}
+                alt="img"
+                width={400}
+                className="hidden md:block relative"
+              />
+              <Image
+                src={rect}
+                alt="img"
+                width={300}
+                className="relative block md:hidden"
+              />
               <div className="absolute top-0 left-0 w-full py-10 px-10 h-full flex flex-col items-start justify-between">
                 <div className=" hidden-on-hover w-full h-full flex justify-center items-center">
-                  <TfiReload className=" text-9xl" />
+                  <TfiReload className="text-5xl md:text-9xl" />
                 </div>
                 <div className=" flex items-end justify-between w-full">
                   <h1 className="hidden-on-hover w-2/3 text-2xl font-semibold">
                     Agile Development Approach
                   </h1>
-                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5">
-                    <h1 className=" text-2xl font-medium">
+                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5 ">
+                    <h1 className=" md:text-2xl font-medium">
                       Agile Development Approach
                     </h1>
-                    <h1>
+                    <h1 className=" text-sm">
                       We primarily follow the Agile development methodology.
                       This iterative approach allows us to be flexible and
                       responsive to changes, ensuring that your project evolves
@@ -102,20 +124,31 @@ function SectionTwo() {
               className="  card relative hover:scale-x-[-1] cursor-pointer w-full flex flex-shrink-0"
               style={{ transitionDuration: "0.5s" }}
             >
-              <Image src={rect} alt="img" width={400} className="relative" />
+              <Image
+                src={rect}
+                alt="img"
+                width={400}
+                className="hidden md:block relative"
+              />
+              <Image
+                src={rect}
+                alt="img"
+                width={300}
+                className="relative block md:hidden"
+              />
               <div className="absolute top-0 left-0 w-full py-10 px-10 h-full flex flex-col items-start justify-between">
                 <div className=" hidden-on-hover w-full h-full flex justify-center items-center">
-                  <TfiReload className=" text-9xl" />
+                  <TfiReload className="text-5xl md:text-9xl" />
                 </div>
                 <div className=" flex items-end justify-between w-full">
                   <h1 className="hidden-on-hover w-2/3 text-2xl font-semibold">
                     Effective Communication
                   </h1>
-                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5">
-                    <h1 className=" text-2xl font-medium">
+                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5 ">
+                    <h1 className=" md:text-2xl font-medium">
                       Effective Communication
                     </h1>
-                    <h1>
+                    <h1 className=" text-sm">
                       We use a variety of project management tools such as
                       Trello, Slack, and Jira to facilitate seamless
                       communication between our team and our clients. Don’t
@@ -135,20 +168,31 @@ function SectionTwo() {
               className="  card relative hover:scale-x-[-1] cursor-pointer w-full flex flex-shrink-0"
               style={{ transitionDuration: "0.5s" }}
             >
-              <Image src={rect} alt="img" width={400} className="relative" />
+              <Image
+                src={rect}
+                alt="img"
+                width={400}
+                className="hidden md:block relative"
+              />
+              <Image
+                src={rect}
+                alt="img"
+                width={300}
+                className="relative block md:hidden"
+              />
               <div className="absolute top-0 left-0 w-full py-10 px-10 h-full flex flex-col items-start justify-between">
                 <div className=" hidden-on-hover w-full h-full flex justify-center items-center">
-                  <TfiReload className=" text-9xl" />
+                  <TfiReload className="text-5xl md:text-9xl" />
                 </div>
                 <div className=" flex items-end justify-between w-full">
                   <h1 className="hidden-on-hover w-2/3 text-2xl font-semibold">
                     Always There for You
                   </h1>
-                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5">
-                    <h1 className=" text-2xl font-medium">
+                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5 ">
+                    <h1 className=" md:text-2xl font-medium">
                       Always There for You
                     </h1>
-                    <h1>
+                    <h1 className=" text-sm">
                       Our commitment to our clients goes beyond regular business
                       hours. We’re always available for you, anytime and
                       anywhere. Whether you have a question, need an update, or
@@ -167,20 +211,31 @@ function SectionTwo() {
               className="  card relative hover:scale-x-[-1] cursor-pointer w-full flex flex-shrink-0"
               style={{ transitionDuration: "0.5s" }}
             >
-              <Image src={rect} alt="img" width={400} className="relative" />
+              <Image
+                src={rect}
+                alt="img"
+                width={400}
+                className="hidden md:block relative"
+              />
+              <Image
+                src={rect}
+                alt="img"
+                width={300}
+                className="relative block md:hidden"
+              />
               <div className="absolute top-0 left-0 w-full py-10 px-10 h-full flex flex-col items-start justify-between">
                 <div className=" hidden-on-hover w-full h-full flex justify-center items-center">
-                  <TfiReload className=" text-9xl" />
+                  <TfiReload className="text-5xl md:text-9xl" />
                 </div>
                 <div className=" flex items-end justify-between w-full">
                   <h1 className="hidden-on-hover w-2/3 text-2xl font-semibold">
                     Three-Stage Payment Method
                   </h1>
-                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5">
-                    <h1 className=" text-2xl font-medium">
+                  <div className=" hiddenItem show-on-hover scale-x-[-1] flex flex-col gap-5 w-full items-start pt-5 ">
+                    <h1 className=" md:text-2xl font-medium">
                       Three-Stage Payment Method
                     </h1>
-                    <h1>
+                    <h1 className=" text-sm">
                       Our commitment to our clients goes beyond regular business
                       hours. We’re always available for you, anytime and
                       anywhere. Whether you have a question, need an update, or
@@ -196,7 +251,7 @@ function SectionTwo() {
           </div>
         </div>
         <div className=" flex items-center gap-5">
-          <div className=" flex items-center gap-3">
+          <div className=" flex items-center md:justify-start md:w-auto w-full gap-3">
             <div
               onClick={handleprocessLeft}
               className=" w-10 h-10 rounded-full border flex items-center justify-center"
@@ -210,7 +265,7 @@ function SectionTwo() {
               <LuChevronRight className=" text-2xl" />
             </div>
           </div>
-          <div className=" w-3/4 h-[2px] bg-white flex items-center ">
+          <div className=" hidden md:block w-3/4 h-[2px] bg-white flex items-center ">
             <div
               id="slider"
               className="scroll-smooth w-32 h-[2px] bg-gray-600 overflow-clip overflow-y-hidden"
