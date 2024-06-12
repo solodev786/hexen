@@ -13,7 +13,7 @@ function page() {
         <Image
           src={deskBg}
           alt="bg"
-          className=" relative h-[100%] hidden md:block"
+          className=" relative w-full h-[100%] hidden md:block"
         />
         <Image
           src={mobileBg}
