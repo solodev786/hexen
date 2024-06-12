@@ -13,20 +13,20 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className=" relative">
-      <div className="  h-full  relative">
-        <Image
+      <div className="  h-full">
+        {/* <Image
           src={svgBack}
           alt="bg"
           className=" w-full h-full relative hidden md:block"
-        />
-        <Image
+        /> */}
+        {/* <Image
           src={mobileBg}
           alt="bg"
           className="w-full h-full relative block md:hidden"
-        />
-        <div className=" absolute top-0 h-full left-0 w-full flex justify-center">
-          <div className="w-full h-full flex flex-col justify-between items-center">
-            <div className=" w-full md:w-[1200px] flex flex-col  justify-center text-white">
+        /> */}
+        <div className=" top-0 h-full left-0 w-full flex justify-center">
+          <div className="w-full h-auto  bg-gradient-to-b from-blue-800 via-black to-violet-600 flex flex-col justify-between items-center ">
+            <div className=" w-full  md:w-[1200px] flex flex-col  justify-center text-white">
               <Main />
               <SectionTwo />
               <SectionThree />
@@ -37,7 +37,7 @@ export default function Home() {
                 <SectionSeven />
               </div>
             </div>
-            <div className="w-full pb-10 text-white">
+            <div className="w-full  text-white mt-32 md:mt-[600px] pb-20">
               <Footer />
             </div>
           </div>

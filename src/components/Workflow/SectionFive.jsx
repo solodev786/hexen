@@ -17,12 +17,12 @@ function SectionFive() {
         </h1>
         <div className=" md:flex gap-10 items-start md:mt-14">
           <div className=" flex flex-col gap-5 ">
-            <h1 className=" flex items-start gap-2 md:w-3/4">
-              <VscIssueReopened />
+            <h1 className=" flex  items-start gap-2 md:w-3/4">
+              <VscIssueReopened className=" " />
               <span>
                 {" "}
                 Alignment Adjustments:{" "}
-                <span className=" text-gray-400">
+                <span className=" text-gray-300">
                   We can fix any alignment issues that may arise, ensuring your
                   website maintains its professional appearance and
                   functionality.
@@ -34,7 +34,7 @@ function SectionFive() {
               <span>
                 {" "}
                 Static Image Updates{" "}
-                <span className=" text-gray-400">
+                <span className=" text-gray-300">
                   Need to update the images on your website? We can change the
                   static images to keep your site fresh and relevant.
                 </span>
@@ -47,7 +47,7 @@ function SectionFive() {
               <span>
                 {" "}
                 Contact Information Updates{" "}
-                <span className=" text-gray-400">
+                <span className=" text-gray-300">
                   Whether you need to change your location, phone number, or
                   address, we’re here to make those updates quickly and
                   efficiently
@@ -59,7 +59,7 @@ function SectionFive() {
               <span>
                 {" "}
                 Consulting for New Projects{" "}
-                <span className=" text-gray-400">
+                <span className=" text-gray-300">
                   Considering a new project? We offer a bit of free consulting
                   to help you get started on the right track and ensure your new
                   project aligns with your goals.
@@ -73,7 +73,7 @@ function SectionFive() {
               <span>
                 {" "}
                 Technical Advice{" "}
-                <span className=" text-gray-400">
+                <span className=" text-gray-300">
                   Our team is available to provide technical advice, helping you
                   make informed decisions about your website and digital
                   presence.
@@ -92,7 +92,7 @@ function SectionFive() {
             </h1> */}
           </div>
         </div>
-        <h1 className=" md:text-center text-xl md:w-2/3 text-violet-500 font-light mt-10">
+        <h1 className=" md:text-center text-xl md:w-2/3 text-white font-light mt-10">
           Please note that these lifelong support features are exclusively
           available for projects with a total cost exceeding 45,000 rupees. We
           value our clients and aim to provide continuous support to help you

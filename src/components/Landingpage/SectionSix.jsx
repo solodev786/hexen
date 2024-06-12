@@ -5,8 +5,8 @@ import { TextField } from "@mui/material";
 function SectionSix() {
   return (
     <div className=" w-full flex  justify-center mt-20 px-10 md:px-0">
-      <div className=" md:w-[1200px] md:h-auto md:flex border border-violet-500 rounded-3xl md:rounded-3xl ">
-        <div className=" hidden md:block w-full md:w-3/5 md:h-full bg-gradient-to-b from-violet-500 to-violet-800 rounded-3xl md:rounded-l-3xl px-10 py-10 flex flex-col justify-between ">
+      <div className=" md:w-[1200px] md:h-auto md:flex border border-gray-500 rounded-l-3xl md:rounded-3xl ">
+        <div className=" hidden md:block w-full md:w-3/5 md:h-full bg-gradient-to-b from-violet-500 to-violet-800 rounded-l-3xl md:rounded-l-3xl px-10 py-10 flex flex-col justify-between ">
           <div className=" flex flex-col gap-5 ">
             <h1 className=" text-5xl font-semibold w-2/3">
               Every project starts with a plan
@@ -30,7 +30,7 @@ function SectionSix() {
             </div>
           </div>
         </div>
-        <div className=" w-full md:w-2/5 h-auto bg-black rounded-3xl md:rounded-r-3xl px-10 py-10">
+        <div className=" w-full md:w-2/5 h-auto bg-black rounded-r-3xl md:rounded-r-3xl px-10 py-10">
           <div className=" w-full h-full flex flex-col ">
             <h1 className=" text-3xl ">How can we help you</h1>
             <div className=" flex flex-col gap-3 mt-10 ">

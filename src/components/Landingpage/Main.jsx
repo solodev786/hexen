@@ -12,7 +12,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Main = () => {
   return (
-    <div className=" w-full  md:h-screen py-10 flex justify-center">
+    <div className=" w-full  md:h-screen  py-10 flex justify-center">
       <div className="w-full flex flex-col  md:gap-10 items-center">
         <div className=" w-4/5 flex justify-between gap-10 items-center  ">
           <div className="w-full hidden md:block">

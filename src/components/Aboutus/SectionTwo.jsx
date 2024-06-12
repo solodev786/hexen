@@ -51,7 +51,7 @@ function SectionTwo() {
             stunning website, a robust e-commerce platform, or a custom web
             application, we are here to make it happen.
           </h1>
-          <h1 className=" font-light md:w-4/5 text-violet-500">
+          <h1 className=" font-light md:w-4/5 text-violet-200">
             Join us on this exciting journey and let’s create something amazing
             together.
           </h1>

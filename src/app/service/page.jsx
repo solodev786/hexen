@@ -11,13 +11,13 @@ import Footer from "@/components/Footer";
 function page() {
   return (
     <div className=" w-full h-auto relative text-white">
-      <Image src={bg} alt="bg" className=" w-full h-full hidden md:block" />
+      {/* <Image src={bg} alt="bg" className=" w-full h-full hidden md:block" />
       <Image
         src={mobileBg}
         alt="bg"
         className=" w-full h-full block md:hidden"
-      />
-      <div className=" absolute top-0 h-full left-0 w-full flex justify-center">
+      /> */}
+      <div className="  h-full bg-gradient-to-b from-blue-800 via-black to-violet-600 w-full flex justify-center">
         <div className="w-full h-full flex flex-col justify-between items-center">
           <div className=" md:w-[1200px] flex flex-col  justify-center">
             <SectionOne />
@@ -26,7 +26,7 @@ function page() {
             <SectionFour />
             <SectionFive />
           </div>
-          <div className="w-full pb-10">
+          <div className="w-full pb-10 mt-32 md:mt-[300px]">
             <Footer />
           </div>
         </div>

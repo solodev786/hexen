@@ -10,7 +10,7 @@ function page() {
   return (
     <div className=" w-full h-auto md:h-auto relative">
       <div className=" h-full w-full relative flex flex-col justify-between">
-        <Image
+        {/* <Image
           src={deskBg}
           alt="bg"
           className=" relative w-full h-[100%] hidden md:block"
@@ -19,14 +19,14 @@ function page() {
           src={mobileBg}
           alt="bg"
           className="w-full relative h-full block md:hidden"
-        />
+        /> */}
 
-        <div className=" w-full h-full flex flex-col justify-between absolute top-0 left-0 text-white py-10 ">
+        <div className=" w-full h-full bg-gradient-to-b from-blue-800 via-black to-violet-600 flex flex-col justify-between  text-white py-10 ">
           <div>
             <SectionOne />
             <SectionTwo />
           </div>
-          <div className=" ">
+          <div className=" mt-32 md:mt-[400px]">
             <Footer />
           </div>
         </div>
