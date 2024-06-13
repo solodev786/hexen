@@ -85,7 +85,7 @@ function SectionOne() {
                   </div>
                   <div className=" flex items-center gap-5 w-1/2">
                     <h1 className=" text-6xl font-semibold">5+</h1>
-                    <h1 className=" uppercase text-4xl">collaborators around the world</h1>
+                    <h1 className=" uppercase text-4xl">collaboration around the world</h1>
                   </div>
                 </div>
                 <div className=" px-8 py-2 bg-white rounded-full text-black">
@@ -96,20 +96,20 @@ function SectionOne() {
           </div>
         </div>
         <div className=" w-full relative block md:hidden">
-          <Image src={mobilefolderone} alt="folder" />
-          <div className=" absolute top-0 left-0 flex flex-col gap-5 py-10 px-5 w-full">
+          <Image src={mobilefolderone} alt="folder" className="" />
+          <div className=" absolute top-0 left-0 flex flex-col gap-5  pt-16  px-5 w-full">
             <h1 className=" text-4xl font-semibold uppercase">
               end-to-end product development
             </h1>
             <hr />
             <div className=" flex items-center gap-10 justify-between">
-              <h1 className=" text-5xl font-bold">50Y</h1>
-              <h1 className=" uppercase text-2xl">product designs</h1>
+              <h1 className=" text-5xl font-bold">30+</h1>
+              <h1 className=" uppercase text-xl">Efficient developers</h1>
             </div>
             <hr />
-            <div className=" flex items-center gap-10">
-              <h1 className=" text-5xl font-bold">05Y</h1>
-              <h1 className=" uppercase text-2xl">Years Experience</h1>
+            <div className=" flex items-center gap-16">
+              <h1 className=" text-5xl font-bold">5+</h1>
+              <h1 className=" uppercase text-xl">Collaboration around the world</h1>
             </div>
           </div>
         </div>
