@@ -41,7 +41,7 @@ function SectionOne() {
                 to deliver exceptional results, maintaining high standards of
                 quality and client satisfaction.
               </h1>
-              <button className=" px-6 py-3 bg-black backdrop-blur-md rounded-full text-xl bg-opacity-30">
+              <button className=" px-6 py-3 bg-black backdrop-blur-md rounded-full text-sm md:text-xl bg-opacity-30">
                 Discover workflows
               </button>
             </div>
