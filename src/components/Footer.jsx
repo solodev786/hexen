@@ -34,7 +34,7 @@ function Footer() {
               </div>
               <div className=" flex items-start gap-2">
                 <CiPhone />
-                <div className=" flex flex-col gap-2">
+                <div className=" flex flex-col md:gap-2">
                     <h1>7736447760</h1>
                     <h1>7510202251</h1>
                 </div>

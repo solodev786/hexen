@@ -31,7 +31,7 @@ function SectionTwo() {
         <div className=" flex flex-col gap-2">
           <h1 className=" uppercase">Business website</h1>
           <h1 className=" text-xl md:text-3xl ">
-            A stunning website for your abaya shop
+            A Beautifull website for a windmill company
           </h1>
         </div>
       </div>

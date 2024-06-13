@@ -5,11 +5,11 @@ const SectionTwo = () => {
   return (
     <div className=" px-10 md:px-0 py-10 w-full md:h-screen flex  justify-center">
       <div className=" flex flex-col gap-20 items-center">
-        <div className="   flex flex-col gap-4 items-center  w-full">
-          <h1 className=" text-xl text-center font-light text-gray-400">
+        <div className="   flex flex-col gap-1 md:gap-4 items-center  w-full">
+          <h1 className="text-gray-400 text-xl text-center font-light md:text-gray-400">
             Grow together with HEXEN
           </h1>
-          <h1 className=" text-5xl  font-normal md:w-2/5 text-center">
+          <h1 className="w-5/6 text-3xl md:text-5xl  font-normal md:w-2/5 text-center">
             We Craft brands from scratch
           </h1>
           <h1 className=" text-8xl md:text-[200px] font-extrabold text-white">
