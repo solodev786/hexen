@@ -1,11 +1,13 @@
+"use client";
 import React from "react";
+import { motion, useScroll, useSpring } from "framer-motion";
 
 function SectionTwo() {
   return (
     <div className=" w-full h-auto  justify-center flex relative mt-10  px-5 md:px-0 md:mt-52">
       <div className=" md:w-[1200px] flex flex-col gap-5">
         <h1 className=" text-white text-4xl font-bold uppercase">our story</h1>
-        <div className=" flex flex-col gap-8 text-lg">
+        <article className=" flex flex-col gap-8 text-lg">
           <h1 className=" font-light w-4/5">
             Welcome to HEXEN, where innovation meets passion! We are Muhammed
             Swalih and Muhammed Shijas, two friends with a shared love for
@@ -55,7 +57,7 @@ function SectionTwo() {
             Join us on this exciting journey and let’s create something amazing
             together.
           </h1>
-        </div>
+        </article>
       </div>
     </div>
   );

@@ -10,12 +10,6 @@ import Footer from "@/components/Footer";
 function page() {
   return (
     <div className=" w-full h-[100%] relative text-white">
-      {/* <Image src={bg} alt="bg" className=" hidden md:block w-full h-full" />
-      <Image
-        src={mobileBg}
-        alt="bg"
-        className=" block md:hidden w-full h-full"
-      /> */}
       <div className=" h-full bg-gradient-to-b from-blue-800 via-black to-violet-600 w-full flex justify-center">
         <div className="  w-full h-full flex flex-col justify-between items-center">
           <div className=" md:w-[1200px] flex flex-col justify-center">
