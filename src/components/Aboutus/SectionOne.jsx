@@ -156,18 +156,18 @@ function SectionOne() {
                     tailor-fitted dedicated team service
                   </h1>
                   <hr />
-                  <div className=" w-full flex items-center gap-20 ">
+                  <div className=" w-full flex items-center gap-10 ">
                     <h1 className=" text-5xl font-bold">50+</h1>
                     <h1 className=" text-3xl uppercase">product designs</h1>
                   </div>
                   <hr />
-                  <div className=" w-full flex items-center gap-20 ">
+                  <div className=" w-full flex items-center gap-10 ">
                     <h1 className=" text-5xl font-bold">04+</h1>
                     <h1 className=" text-3xl uppercase">Years experience</h1>
                   </div>
                   <hr />
-                  <div className=" w-full flex items-center gap-14 ">
-                    <h1 className=" text-5xl font-bold">100+</h1>
+                  <div className=" w-full flex items-center gap-10 ">
+                    <h1 className=" text-5xl font-bold">90+</h1>
                     <h1 className=" text-3xl uppercase">projects completed</h1>
                   </div>
                 </div>

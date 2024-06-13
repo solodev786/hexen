@@ -96,7 +96,7 @@ function SectionOne() {
           </div>
         </div>
         <div className=" w-full relative block md:hidden">
-          <Image src={mobilefolderone} alt="folder" className="" />
+          <Image src={mobilefolderone} alt="folder" className=" h-[430px]" />
           <div className=" absolute top-0 left-0 flex flex-col gap-5  pt-16  px-5 w-full">
             <h1 className=" text-4xl font-semibold uppercase">
               end-to-end product development
