@@ -30,7 +30,7 @@ function SectionSix() {
             </div>
           </div>
         </div>
-        <div className=" w-full md:w-2/5 h-auto bg-black rounded-r-3xl md:rounded-r-3xl px-10 py-10">
+        <div className=" w-full md:w-2/5 h-auto bg-black rounded-3xl md:rounded-r-3xl px-10 py-10">
           <div className=" w-full h-full flex flex-col ">
             <h1 className=" text-3xl ">How can we help you</h1>
             <div className=" flex flex-col gap-3 mt-10 ">
