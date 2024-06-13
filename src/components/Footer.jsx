@@ -27,7 +27,7 @@ function Footer() {
               High level experience in web development and designing knowledge,
               producing quality work
             </h1>
-            <div className=" flex flex-col gap-4">
+            <div className=" flex flex-col  gap-4">
               <div className=" flex items-center gap-3">
                 <CiMail />
                 info@hexen.in
