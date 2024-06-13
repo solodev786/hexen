@@ -15,11 +15,7 @@ export default function Home() {
           alt="bg"
           className=" w-full h-full relative hidden md:block"
         /> */}
-        {/* <Image
-          src={mobileBg}
-          alt="bg"
-          className="w-full h-full relative block md:hidden"
-        /> */}
+  
         <div className=" top-0 h-full left-0 w-full flex justify-center">
           <div className="w-full h-auto  bg-gradient-to-b from-blue-800 via-black to-violet-600 flex flex-col justify-between items-center ">
             <div className=" w-full  md:w-[1200px] flex flex-col  justify-center text-white">
