@@ -7,9 +7,9 @@ import Image from "next/image";
 
 function SectionTwo() {
   return (
-    <div className=" w-full flex flex-wrap gap-10 items-center justify-start px-5 md:px-0">
-      <div className=" flex flex-col gap-3 md:w-1/3 ">
-        <Image src={pone} alt="pone" width={550} />
+    <div className=" w-full flex flex-wrap gap-10 items-center justify-center px-5 md:px-0">
+      <div className=" flex flex-col gap-3 md:w-2/5 ">
+        <Image src={pone} alt="pone" width={650} />
         <div className=" flex flex-col gap-2">
           <h1 className=" uppercase">e commerce</h1>
           <h1 className="text-xl md:text-3xl ">
@@ -17,8 +17,8 @@ function SectionTwo() {
           </h1>
         </div>
       </div>
-      <div className=" flex flex-col gap-3 md:w-1/3">
-        <Image src={ptwo} alt="pone" width={550} />
+      <div className=" flex flex-col gap-3 md:w-2/5">
+        <Image src={ptwo} alt="pone" width={650} />
         <div className=" flex flex-col gap-2">
           <h1 className=" uppercase">business website</h1>
           <h1 className="text-xl md:text-3xl ">
@@ -26,7 +26,7 @@ function SectionTwo() {
           </h1>
         </div>
       </div>
-      <div className=" flex flex-col gap-3 md:w-1/3">
+      <div className=" flex flex-col gap-3 md:w-2/5">
         <Image src={pthree} alt="pone" width={550} />
         <div className=" flex flex-col gap-2">
           <h1 className=" uppercase">Business website</h1>
@@ -35,7 +35,7 @@ function SectionTwo() {
           </h1>
         </div>
       </div>
-      <div className=" flex flex-col gap-3 md:w-1/3">
+      <div className=" flex flex-col gap-3 md:w-2/5">
         <Image src={pfour} alt="pone" width={550} />
         <div className=" flex flex-col gap-2">
           <h1 className=" uppercase">Business consultancy</h1>

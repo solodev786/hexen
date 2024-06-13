@@ -24,11 +24,11 @@ function SectionOne() {
               />
               <Image
                 src={workFlowMainImage}
-                width={700}
+                width={1000}
                 alt="intro image"
                 className=" block md:hidden"
               />
-              <div className=" absolute w-full h-32 flex justify-center top-[-150px] md:top-[60] ">
+              <div className=" absolute w-full h-32 flex justify-center top-[-100px] md:top-[60px] ">
                 <div className=" md:w-3/6 h-full flex justify-center">
                   <h1 className="w-4/5 text-3xl md:text-6xl text-center text-white font-semibold">
                     Our Workflows that make you easy

@@ -8,9 +8,11 @@ import Navbar from "../Navbar";
 function SectionOne() {
   return (
     <div>
-      <Navbar />
+      <div className=" px-5 md:px-0">
+        <Navbar />
+      </div>
       <div className=" w-full h-screen flex flex-col   items-center px-5 md:px-0">
-        <div className="w-full h-full  flex items-center  justify-center">
+        <div className="w-full h-3/4 md:h-full  flex items-center  justify-center">
           <div className="  flex flex-col items-center gap-5 md:w-2/5 mt-[-50px]">
             <h1 className=" text-5xl md:text-7xl font-extrabold uppercase text-center">
               our best works
