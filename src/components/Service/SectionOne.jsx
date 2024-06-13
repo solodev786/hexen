@@ -78,14 +78,14 @@ function SectionOne() {
               </div>
               <hr />
               <div className=" w-full justify-between flex items-center">
-                <div className=" flex w-3/5 gap-5">
-                  <div className=" flex items-center gap-5 w-1/2">
-                    <h1 className=" text-6xl font-semibold">5Y</h1>
-                    <h1 className=" uppercase text-4xl">product designs</h1>
+                <div className=" flex w-3/5 gap-10">
+                  <div className=" flex items-center gap-5 w-3/4">
+                    <h1 className=" text-6xl font-semibold">30+</h1>
+                    <h1 className=" uppercase text-4xl">Efficient developers</h1>
                   </div>
                   <div className=" flex items-center gap-5 w-1/2">
                     <h1 className=" text-6xl font-semibold">5+</h1>
-                    <h1 className=" uppercase text-4xl">Years Experience</h1>
+                    <h1 className=" uppercase text-4xl">collaborators around the world</h1>
                   </div>
                 </div>
                 <div className=" px-8 py-2 bg-white rounded-full text-black">

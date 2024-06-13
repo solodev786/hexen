@@ -37,8 +37,8 @@ function SectionFive() {
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
-                      <h1 className=" font-semibold">Richard Philippe</h1>
-                      <h1 className=" text-xs">CEO of easy tuition</h1>
+                      <h1 className=" font-semibold">Shafeek</h1>
+                      <h1 className=" text-xs">Founder of trekk & travel holidays</h1>
                     </div>
                   </div>
                 </div>
@@ -54,8 +54,8 @@ function SectionFive() {
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
-                      <h1 className=" font-semibold">Richard Philippe</h1>
-                      <h1 className=" text-xs">CEO of easy tuition</h1>
+                      <h1 className=" font-semibold">Illyas</h1>
+                      <h1 className=" text-xs">CEO Fly greenzs holidays</h1>
                     </div>
                   </div>
                 </div>
@@ -72,8 +72,8 @@ function SectionFive() {
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
-                      <h1 className=" font-semibold">Richard Philippe</h1>
-                      <h1 className=" text-xs">CEO of easy tuition</h1>
+                      <h1 className=" font-semibold">Shamseer khan</h1>
+                      <h1 className=" text-xs">Founder of MME film production company</h1>
                     </div>
                   </div>
                 </div>
@@ -89,8 +89,8 @@ function SectionFive() {
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
-                      <h1 className=" font-semibold">Richard Philippe</h1>
-                      <h1 className=" text-xs">CEO of easy tuition</h1>
+                      <h1 className=" font-semibold">Jeffin thomas</h1>
+                      <h1 className=" text-xs">Co founder of codibro</h1>
                     </div>
                   </div>
                 </div>
@@ -108,7 +108,7 @@ function SectionFive() {
                   <div className=" flex items-center gap-4">
                     <div>
                       <h1 className=" font-semibold">Richard Philippe</h1>
-                      <h1 className=" text-xs">CEO of easy tuition</h1>
+                      <h1 className=" text-xs">CEO Zailas</h1>
                     </div>
                   </div>
                 </div>
@@ -124,8 +124,8 @@ function SectionFive() {
                   </h1>
                   <div className=" flex items-center gap-4">
                     <div>
-                      <h1 className=" font-semibold">Richard Philippe</h1>
-                      <h1 className=" text-xs">CEO of easy tuition</h1>
+                      <h1 className=" font-semibold">Vishnu</h1>
+                      <h1 className=" text-xs">MD of formscape architecture</h1>
                     </div>
                   </div>
                 </div>

@@ -105,7 +105,7 @@ function SectionOne() {
                         </div>
                       </div>
                       <div className=" flex gap-4 items-center w-1/3">
-                        <h1 className=" text-6xl font-bold">07</h1>
+                        <h1 className=" text-6xl font-bold">04</h1>
                         <div className=" flex flex-col">
                           <h1 className=" text-4xl uppercase">
                             years experience
@@ -113,7 +113,7 @@ function SectionOne() {
                         </div>
                       </div>
                       <div className=" flex gap-4 items-center w-1/3">
-                        <h1 className=" text-6xl font-bold">200+</h1>
+                        <h1 className=" text-6xl font-bold">100+</h1>
                         <div className=" flex flex-col">
                           <h1 className=" text-4xl uppercase">
                             projects completed
@@ -162,13 +162,13 @@ function SectionOne() {
                   </div>
                   <hr />
                   <div className=" w-full flex items-center gap-20 ">
-                    <h1 className=" text-5xl font-bold">50+</h1>
-                    <h1 className=" text-3xl uppercase">product designs</h1>
+                    <h1 className=" text-5xl font-bold">04+</h1>
+                    <h1 className=" text-3xl uppercase">Years experience</h1>
                   </div>
                   <hr />
                   <div className=" w-full flex items-center gap-20 ">
-                    <h1 className=" text-5xl font-bold">50+</h1>
-                    <h1 className=" text-3xl uppercase">product designs</h1>
+                    <h1 className=" text-5xl font-bold">100+</h1>
+                    <h1 className=" text-3xl uppercase">projects completed</h1>
                   </div>
                 </div>
               </div>
@@ -181,11 +181,11 @@ function SectionOne() {
               </h1>
               <h1 className=" text-xl md:w-4/5  font-extralight">
                 Our team is a unique blend of youthful energy and seasoned
-                expertise. We&apos;re not just a startup; we&apos;re a powerhouse of
-                talent, with fresh perspectives from young minds and invaluable
-                wisdom from experienced professionals. This dynamic combination
-                results in unparalleled products that set new standards in the
-                industry.
+                expertise. We&apos;re not just a startup; we&apos;re a
+                powerhouse of talent, with fresh perspectives from young minds
+                and invaluable wisdom from experienced professionals. This
+                dynamic combination results in unparalleled products that set
+                new standards in the industry.
               </h1>
             </div>
             <div className=" w-full h-[1px] bg-white bg-gradient-to-r from-gray-500 md:mt-10 to-white"></div>

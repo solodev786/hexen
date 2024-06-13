@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../assets/HEXEN WEBSITE ASSETS/Hexen_logo.png";
 import Image from "next/image";
+import { CiMail } from "react-icons/ci";
+import { CiPhone } from "react-icons/ci";
+
 function Footer() {
   return (
     <div className=" w-full px-10 flex flex-col gap-5 h-full justify-end ">
@@ -24,6 +27,19 @@ function Footer() {
               High level experience in web development and designing knowledge,
               producing quality work
             </h1>
+            <div className=" flex flex-col gap-4">
+              <div className=" flex items-center gap-3">
+                <CiMail />
+                info@hexen.in
+              </div>
+              <div className=" flex items-start gap-2">
+                <CiPhone />
+                <div className=" flex flex-col gap-2">
+                    <h1>7736447760</h1>
+                    <h1>7510202251</h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
