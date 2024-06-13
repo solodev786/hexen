@@ -1,14 +1,10 @@
 import Main from "@/components/Landingpage/Main";
 import SectionTwo from "@/components/Landingpage/SectionTwo";
-import Image from "next/image";
-
 import SectionThree from "@/components/Landingpage/SectionThree";
 import SectionFour from "@/components/Landingpage/SectionFour";
 import SectionFive from "@/components/Landingpage/SectionFive";
 import SectionSix from "@/components/Landingpage/SectionSix";
 import SectionSeven from "@/components/Landingpage/SectionSeven";
-import mobileBg from "../assets/HOMEPAGE (2).svg";
-import svgBack from "../assets/HOME PAGE.svg";
 import Footer from "@/components/Footer";
 export default function Home() {
   return (
