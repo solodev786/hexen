@@ -8,10 +8,10 @@ import foldermobile from "../../assets/folderone.png";
 import folderImage from "../../assets/work.png";
 function SectionFour() {
   return (
-    <div className=" w-full flex justify-center py-10 px-10 md:px-0">
+    <div className=" w-full flex justify-center my-10 px-10 md:px-0">
       <div className=" w-[1200px] ">
         <div className=" flex flex-col gap-5 md:gap-10 ">
-          <div className=" flex items-center gap-4 justify-end">
+          <div className=" flex my-10 items-center gap-4 justify-end">
             <h1 className=" font-light text-violet-500">02</h1>
             <div className=" w-[1px] h-[10px] bg-violet-500"></div>
             <h1 className="  uppercase font-light md:w-32 w-32">our works</h1>
