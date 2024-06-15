@@ -7,12 +7,14 @@ import SectionThree from "@/components/OurBestWork/SectionThree";
 import mobileBg from "../../assets/best works.svg";
 import Footer from "@/components/Footer";
 
+
+
 function page() {
   return (
     <div className=" w-full h-[100%] relative text-white">
       <div className=" h-full bg-gradient-to-b from-blue-800 via-black to-violet-600 w-full flex justify-center">
         <div className="  w-full h-full flex flex-col justify-between items-center">
-          <div className=" md:w-[1200px] flex flex-col justify-center">
+          <div className=" md:w-full flex flex-col justify-center">
             <SectionOne />
             <SectionThree />
             <SectionTwo />
