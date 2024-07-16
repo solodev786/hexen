@@ -7,7 +7,7 @@ function MobileMenu() {
   const router = useRouter();
   return (
     <div className="block md:hidden">
-      <div className=" w-full h-screen bg-violet-950 text-white flex py-10 px-10">
+      <div className=" w-full h-screen bg-[#202020] text-white flex py-10 px-10">
         <div className="w-full flex flex-col h-full justify-between">
           <div className="w-full flex flex-col gap-10">
             <div

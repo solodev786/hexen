@@ -10,7 +10,7 @@ function page() {
   return (
     <div className="  h-auto md:h-auto relative">
       <div className=" h-full w-full relative flex flex-col justify-between">
-        <div className="  h-full bg-gradient-to-b from-blue-800 via-black to-violet-600 flex flex-col justify-between  text-white pb-10 ">
+        <div className="  h-full bg-gradient-to-b from-[#202020] via-black to-[#202020] flex flex-col justify-between  text-white pb-10 ">
           <div>
             <SectionOne />
             <SectionTwo />

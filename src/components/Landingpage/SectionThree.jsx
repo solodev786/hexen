@@ -1,3 +1,4 @@
+"use client"
 import React from "react";
 import icon from "../../assets/HEXEN WEBSITE ASSETS/second_logo.png";
 import Image from "next/image";
@@ -6,12 +7,13 @@ import divtwo from "../../assets/HEXEN WEBSITE ASSETS/divtwo.png";
 import divthree from "../../assets/HEXEN WEBSITE ASSETS/divthree.png";
 import divfour from "../../assets/HEXEN WEBSITE ASSETS/divfour.png";
 import divfive from "../../assets/HEXEN WEBSITE ASSETS/divfive.png";
+import { motion } from "framer-motion";
 
 import mobileDivOne from "../../assets/ourworks.svg";
 import mobileDivTwo from "../../assets/clientsays.svg";
 import mobileDivThree from "../../assets/divethreemobile.svg";
 import mobileDivFour from "../../assets/fourdiv.svg";
-import { Avatar, AvatarGroup } from "@mui/material";
+import { Avatar, AvatarGroup, duration } from "@mui/material";
 const SectionThree = () => {
   return (
     <div className=" px-10 md:px-0 w-full md:h-screen flex justify-center py-5 md:py-10">
@@ -47,13 +49,20 @@ const SectionThree = () => {
               </h1>
 
               <div className=" hidden md:flex md:items-start md:gap-5 ">
-                <Image
-                  src={divone}
-                  alt="divpne"
-                  width={500}
-                  className=" hover:w-[520px] "
-                  style={{ transitionDuration: "0.5s" }}
-                />
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ duration: 1 }}
+                  
+                >
+                  <Image
+                    src={divone}
+                    alt="divpne"
+                    width={500}
+                    className=" hover:w-[520px] "
+                    style={{ transitionDuration: "0.5s" }}
+                  />
+                </motion.div>
                 <div className=" flex flex-col gap-7">
                   <div
                     className=" w-64 h-32  rounded-3xl  hover:w-[276px]"

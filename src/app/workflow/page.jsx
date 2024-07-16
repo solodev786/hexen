@@ -12,7 +12,7 @@ import Navbar from "@/components/Navbar";
 function page() {
   return (
     <div className=" w-full h-[100%] relative text-white">
-      <div className=" bg-gradient-to-b from-blue-800 via-black to-violet-600 h-full w-full flex justify-center">
+      <div className=" bg-gradient-to-b from-[#202020] via-black to-[#202020] h-full w-full flex justify-center">
         <div className=" w-full flex flex-col h-full justify-between pb-5">
           <div>
          
