@@ -108,14 +108,19 @@ function SectionFour() {
                     </div>
                     {/*  */}
                     <div className=" w-2/4 h-[300px]">
-                      <Video
-                        autoPlay
-                        muted
+                      <video
+                        width="320"
+                        height="240"
+                        preload="meta"
                         loop
                         playsInline
-                        controls={false}
-                        src={sitevido}
-                      />
+                        autoPlay
+                        muted
+                        className="w-full h-full object-cover"
+                      >
+                        <source src="/assets/vid.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
                     </div>
                   </div>
                   {/* ---------------------------- */}
@@ -253,14 +258,27 @@ function SectionFour() {
                           Innovative 3D Animation Solutions
                         </h1>
                       </div>
-                      <Video
+                      {/* <Video
                         autoPlay
                         muted
                         loop
                         playsInline
                         controls={false}
                         src={sitevido}
-                      />
+                      /> */}
+                      <video
+                        width="320"
+                        height="240"
+                        preload="meta"
+                        loop
+                        playsInline
+                        autoPlay
+                        muted
+                        // className="w-full h-full object-cover"
+                      >
+                        <source src="/assets/vid.mp4" type="video/mp4" />
+                        Your browser does not support the video tag.
+                      </video>
                     </div>
                   </div>
                   <div className=" w-full flex items-center   h-[345px] bg-black  rounded-2xl flex-shrink-0">
