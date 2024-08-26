@@ -17,7 +17,7 @@ function page() {
         alt="bg"
         className=" w-full h-full block md:hidden"
       /> */}
-      <div className="  h-full bg-gradient-to-b from-[#202020] via-black to-[#202020] w-full flex justify-center">
+      <div className="  h-full bg-black w-full flex justify-center">
         <div className="w-full h-full flex flex-col justify-between items-center">
           <div className=" md:w-[1200px] flex flex-col  justify-center">
             <SectionOne />
